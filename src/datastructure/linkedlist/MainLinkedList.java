@@ -9,14 +9,25 @@ public class MainLinkedList {
 //        myLinkedList.getTail();
 //        myLinkedList.getLength();
 
+        System.out.println("-----Appending last nodes--------");
         myLinkedList.append(33);
+        myLinkedList.prepend(55);
         myLinkedList.append(7);
         myLinkedList.printList();
 
-        System.out.println("-----removing last nodes--------");
+        System.out.println("-----Removing last nodes--------");
+        System.out.println(myLinkedList.removeLast().value);
+        System.out.println(myLinkedList.removeLast().value);
         System.out.println(myLinkedList.removeLast().value);
         System.out.println(myLinkedList.removeLast().value);
         System.out.println(myLinkedList.removeLast());
 
+        System.out.println("-----Prepending nodes--------");
+        myLinkedList.prepend(4);
+        myLinkedList.prepend(33);
+        myLinkedList.printList();
+
+        System.out.println("-----Remove First--------");
+        System.out.println(myLinkedList.removeFirst().value);
     }
 }
