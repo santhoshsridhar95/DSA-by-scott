@@ -18,6 +18,11 @@ public class MainLinkedList {
         System.out.println("-----Getting nodes on index--------");
         System.out.println(myLinkedList.get(2).value);
 
+        System.out.println("-----setting nodes on index--------");
+        System.out.println(myLinkedList.set(2,100));
+
+        myLinkedList.printList();
+
         System.out.println("-----Removing last nodes--------");
         System.out.println(myLinkedList.removeLast().value);
         System.out.println(myLinkedList.removeLast().value);
