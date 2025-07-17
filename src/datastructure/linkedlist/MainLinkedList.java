@@ -51,6 +51,22 @@ public class MainLinkedList {
         System.out.println("-----Printing the Insert--------");
         myLinkedList.printList();
 
+        System.out.println("-----Remove--------");
+        System.out.println(myLinkedList.remove(3).value);
+        System.out.println(myLinkedList.remove(0).value);
+        System.out.println(myLinkedList.remove(6));
+
+
+        System.out.println("-----Printing the nodes after remove--------");
+        myLinkedList.printList();
+
+        System.out.println("-----Reverse the LL--------");
+        myLinkedList.reverse();
+        myLinkedList.printList();
+
+        myLinkedList.getHead();
+        myLinkedList.getTail();
+
 
     }
 }
