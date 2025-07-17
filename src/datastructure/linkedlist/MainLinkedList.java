@@ -15,6 +15,9 @@ public class MainLinkedList {
         myLinkedList.append(7);
         myLinkedList.printList();
 
+        System.out.println("-----Getting nodes on index--------");
+        System.out.println(myLinkedList.get(2).value);
+
         System.out.println("-----Removing last nodes--------");
         System.out.println(myLinkedList.removeLast().value);
         System.out.println(myLinkedList.removeLast().value);
@@ -29,5 +32,7 @@ public class MainLinkedList {
 
         System.out.println("-----Remove First--------");
         System.out.println(myLinkedList.removeFirst().value);
+
+
     }
 }
