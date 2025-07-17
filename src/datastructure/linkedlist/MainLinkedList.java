@@ -39,5 +39,18 @@ public class MainLinkedList {
         System.out.println(myLinkedList.removeFirst().value);
 
 
+        System.out.println("-----Insert--------");
+        System.out.println(myLinkedList.insert(0,1));
+        System.out.println(myLinkedList.insert(1,44));
+        System.out.println(myLinkedList.insert(3,22));
+        System.out.println(myLinkedList.insert(5,100));
+        System.out.println(myLinkedList.insert( 0,2));
+        System.out.println(myLinkedList.insert(5,100));
+
+
+        System.out.println("-----Printing the Insert--------");
+        myLinkedList.printList();
+
+
     }
 }
